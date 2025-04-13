@@ -1,5 +1,10 @@
 // Funcionalidad para el sitio web de PUA
 
+// Cargar los scripts de datos
+document.write('<script src="js/data/polerones.js"></script>');
+document.write('<script src="js/data/colets.js"></script>');
+document.write('<script src="js/data/frajackets.js"></script>');
+
 document.addEventListener('DOMContentLoaded', function() {
     // Navegación móvil
     const navToggle = document.querySelector('.nav-toggle');
@@ -16,26 +21,33 @@ document.addEventListener('DOMContentLoaded', function() {
     loadProducts();
 });
 
-// Función para cargar productos desde JSON
+// Función para cargar productos desde los datos embebidos
 function loadProducts() {
     const productContainer = document.querySelector('.product-grid');
     if (!productContainer) return;
     
     const productType = productContainer.dataset.productType;
+    let products = [];
     
-    fetch(`/products/${productType}/products.json`)
-        .then(response => response.json())
-        .then(products => {
-            productContainer.innerHTML = '';
-            
-            products.forEach(product => {
-                const productCard = createProductCard(product);
-                productContainer.appendChild(productCard);
-            });
-        })
-        .catch(error => {
-            console.error('Error cargando productos:', error);
+    // Seleccionar los datos según el tipo de producto
+    if (productType === 'polerones') {
+        products = poleronesData;
+    } else if (productType === 'colets') {
+        products = coletsData;
+    } else if (productType === 'frajackets') {
+        products = frajacketsData;
+    }
+    
+    if (products.length > 0) {
+        productContainer.innerHTML = '';
+        
+        products.forEach(product => {
+            const productCard = createProductCard(product);
+            productContainer.appendChild(productCard);
         });
+    } else {
+        productContainer.innerHTML = '<p>No se encontraron productos.</p>';
+    }
 }
 
 // Crear tarjeta de producto
