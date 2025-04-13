@@ -66,7 +66,7 @@
     "price": 28900,
     "materials": "Algodón reciclado, telas recuperadas con estampado marino, ribetes elásticos",
     "labor_hours": 6,
-    "in_stock": true,
+    "in_stock": false,
     "images": ["/images/pol4.png"]
   },
   {
@@ -86,7 +86,7 @@
     "price": 29900,
     "materials": "Algodón reciclado, telas recuperadas con estampados geométricos, ribetes elásticos",
     "labor_hours": 6,
-    "in_stock": true,
+    "in_stock": false,
     "images": ["/images/pol8.png"]
   },
   {
