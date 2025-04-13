@@ -99,4 +99,16 @@
     "in_stock": true,
     "images": ["/images/pol9.png"]
   }
+  {
+    "id": "poleron11",
+    "name": "Polerón Tríada",
+    "description": "Polerón infantil con diseño geométrico en blanco y negro al centro. Cuerpo azul marino, mangas celestes y ribetes burdeo. Ideal para un look moderno y cómodo.",
+    "price": 28900,
+    "materials": "Algodón reciclado, telas recuperadas con estampado étnico, ribetes elásticos",
+    "labor_hours": 6,
+    "in_stock": false,
+    "images": [
+      "/images/pol11.png"
+    ]
+  }
 ]
