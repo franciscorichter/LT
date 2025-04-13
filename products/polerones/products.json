@@ -7,7 +7,7 @@
     "materials": "Algodón reciclado, telas recuperadas, ribetes elásticos",
     "labor_hours": 6,
     "in_stock": true,
-    "images": ["/images/pol1.png"]
+    "images": ["/images/pol2.png"]
   },
   {
     "id": "poleron2",
@@ -17,7 +17,7 @@
     "materials": "Algodón reciclado, telas recuperadas, ribetes elásticos en verde menta",
     "labor_hours": 5,
     "in_stock": true,
-    "images": ["/images/pol2.png"]
+    "images": ["/images/pol6.png"]
   },
   {
     "id": "poleron3",
@@ -27,7 +27,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampado de gatitos, ribetes elásticos",
     "labor_hours": 7,
     "in_stock": true,
-    "images": ["/images/pol3.png"]
+    "images": ["/images/pol1.png"]
   },
   {
     "id": "poleron4",
@@ -37,7 +37,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampados geométricos, ribetes elásticos",
     "labor_hours": 6,
     "in_stock": true,
-    "images": ["/images/pol4.png"]
+    "images": ["/images/pol7.png"]
   },
   {
     "id": "poleron5",
@@ -57,7 +57,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampados, ribetes elásticos",
     "labor_hours": 5,
     "in_stock": true,
-    "images": ["/images/pol6.png"]
+    "images": ["/images/pol10.png"]
   },
   {
     "id": "poleron7",
@@ -67,7 +67,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampado marino, ribetes elásticos",
     "labor_hours": 6,
     "in_stock": true,
-    "images": ["/images/pol7.png"]
+    "images": ["/images/pol4.png"]
   },
   {
     "id": "poleron8",
@@ -77,7 +77,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampados de animal print, ribetes elásticos",
     "labor_hours": 7,
     "in_stock": true,
-    "images": ["/images/pol8.png"]
+    "images": ["/images/pol3.png"]
   },
   {
     "id": "poleron9",
@@ -87,7 +87,7 @@
     "materials": "Algodón reciclado, telas recuperadas con estampados geométricos, ribetes elásticos",
     "labor_hours": 6,
     "in_stock": true,
-    "images": ["/images/pol9.png"]
+    "images": ["/images/pol8.png"]
   },
   {
     "id": "poleron10",
@@ -97,6 +97,6 @@
     "materials": "Algodón reciclado, telas recuperadas con estampado floral, ribetes elásticos",
     "labor_hours": 6,
     "in_stock": true,
-    "images": ["/images/pol10.png"]
+    "images": ["/images/pol9.png"]
   }
 ]
